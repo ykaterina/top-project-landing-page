@@ -52,6 +52,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    max-width: 650px;
 }
 
 .hero-img > img {
@@ -61,6 +62,7 @@ a {
 .main-text {
     font-size: 48px;
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 .learning-paths {
@@ -86,6 +88,17 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+.path > .field {
+    font-weight: bold;
+}
+
+.path > .desc {
+    font-weight: lighter;
+    font-size: 14px;
 }
 
 .path > img {
@@ -124,10 +137,47 @@ h2 {
     padding: 20px;
 }
 
+.call-to-action {
+    display: flex;
+    margin: 50px 150px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    color: white;
+    justify-content: space-between;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-main-text {
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 5px;
+}
+
+.action-sub-text {
+    font-weight: lighter;
+}
+
 button {
     color: white;
     background-color: #3882F6;
-    padding: 5px 20px;
     border-radius: 8px;
     box-shadow: none;
+    font-weight: bolder;
+    padding: 8px 30px;
+}
+
+.hero-button {
+    border: none;
+}
+
+.btn > button {
+    border-style: solid;
+    border-color: white; 
+    box-shadow: 0;
 }
