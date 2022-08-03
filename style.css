@@ -17,9 +17,19 @@ body {
     justify-content: space-between;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+}
+.main > img {
+    height: 45px;
+    padding-right: 10px;
+}
+
 .title {
     font-size: 24px;
-    color: #F9FAF8;
+    font-weight: bolder;
+    color: #F9FAF8; 
 }
 
 ul {
@@ -57,6 +67,7 @@ a {
 
 .hero-img > img {
     height: 300px;
+    border-radius: 8px;
 }
 
 .main-text {
@@ -93,6 +104,7 @@ h2 {
 }
 
 .path > .field {
+    padding-top: 5px;
     font-weight: bold;
 }
 
@@ -105,7 +117,9 @@ h2 {
     width: 150px;
     height: 150px;
     border-radius: 8px;
-    padding-bottom: 5px;
+    border: 2px;
+    border: 5px solid #3882F6;
+
 }
 
 .secondary-text {
