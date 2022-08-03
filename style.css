@@ -63,6 +63,7 @@ a {
     align-items: flex-start;
     gap: 8px;
     max-width: 650px;
+    padding-right: 100px;
 }
 
 .hero-img > img {
